@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">  
+    <head>    
+        <meta charset="UTF-8">
+        <meta name="title" content="Supermercado DIW">
+        <meta name="description" content="Supermercado DIW">
+        <link rel="stylesheet" href="assets/css/style.css"/>    
+        <title>Formulario</title>
+    </head>  
+    <body> 
+       <header>    
+        <div class="cabecera">
+            <a href="index.html"><img src="assets/images/logo 250 x100 .png" width="162" height="117" alt="Logo supermercado DIW"></a>
+            <h1>SUPERMERCADO DIW</h1>
+        </div>
+        </header>
+        <nav>
+            <div class=" menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+       
+    <article>
+        <form>
+            <fieldset>
+                <legend><h3>Datos personales</h3></legend>
+                
+                    <label for="nombreFormulario">Nombre y apellidos: </label>
+                    <input id="nombreFormulario" type="text" class="basic-input" size="40" maxlength="40" pattern="[A-Za-z0-9]" placeholder="Nombre y Apellidos" required><br><br>
+                          
+                <label for="email">Email: </label>
+                <input id="email" type="email" class="basic-input" size="53" placeholder="ejemplo@correo.com" required><br><br>
+
+                <label for="Edad">Edad: </label>
+                <input id="edad" type="number" class="shaded-input" size="4" min="18" max="99" placeholder="número" required><br><br>
+
+                
+                <label for="telefono">Teléfono: </label>
+                <input id="telefono" type="tel" class="hover-focus-input" size="9" maxlength="9" pattern="[0-9]" placeholder="xxxxxxxxx" required><br><br><br>
+
+                <label for="consulta">Consulta: </label><br>
+                <textarea rows="10" cols="50" placeholder="Mensaje" id="mensaje" required></textarea><br><br>
+
+                <label><input type="checkbox" name="politica" value="politica" required>Acepta politica de privacidad</label><br>
+                <label><input type="checkbox" name="cokkies" value="cokkies" required>Acepta politica de cookies</label><br>
+            </fieldset>  
+                <input type="submit" value="Enviar">
+        </form>
+    </article>
+
+        <section id="contacto">
+            <h4><u>Contacto</u></h4>
+            <p><strong>Nombre:</strong> Asensio Rebollo Gomez</p>
+            <p><strong>Dirección:</strong>Beato Francisco Castelló Aleu, s/n CP:03008 Alicante </p>
+            <p><strong>Email:</strong><a href="mailto:asensio@ejemplo.com"> aserebgom@alu.edu.gva.es</a></p>
+            <p><strong>Teléfono:</strong><a href="tel: (+34) 600 111 222">600 111 222</a></p>
+        </section>
+    </body>
+</html>
