@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+	margin-top:0px;
+}
+
+header{
+	width: 98%;
+	height: 150px;
+	background-color: rgb(143, 143, 143);
+	margin: 0px 1% 20px 1%;
+}
