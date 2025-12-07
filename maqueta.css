@@ -25,4 +25,9 @@ header h1 {
     background-color: rgb(143, 143, 143);
     margin: 0px 1% 20px 1%;
 }
+#menu h1, #nav1 h1{
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
 
