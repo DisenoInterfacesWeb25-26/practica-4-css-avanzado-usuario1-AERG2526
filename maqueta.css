@@ -60,3 +60,15 @@ header h1 {
     margin: 20px 0px 10px 0px;
     float:left;
 }
+#banner{
+    width: 27%;
+    height: 400px;
+    background-color: rgb(143, 143, 143);
+    margin: 2% 1% 20px 1%;
+    float:right;
+}
+#banner h3{
+    line-height: 500px;
+    text-align: center;
+    vertical-align: middle;
+}
