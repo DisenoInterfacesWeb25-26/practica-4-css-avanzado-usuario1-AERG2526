@@ -25,9 +25,21 @@ header h1 {
     background-color: rgb(143, 143, 143);
     margin: 0px 1% 20px 1%;
 }
-#menu h1, #nav1 h1{
+#menu h1, #nav2 h1{
     line-height: 80px;
     text-align: center;
     vertical-align: middle;
 }
+#contenedor{
+    width: 78%;
+    float: right;
+    margin: 0px 1% 10px 1%;
+}
+#nav2{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(143, 143, 143);
+    float: left;
+}
+
 
