@@ -148,11 +148,9 @@ footer h3{
        width: 100%;
     }
     #nav2{
-        width: 100%;
+        width: 98%;
         height: 80px;
-        display: block; 
-        margin-top: 10px;
-    margin-bottom: 15px;
+        margin: 20px 1% 10px 1%;
   }
 
     #nav2 h1{
@@ -162,10 +160,8 @@ footer h3{
     }
 
     #cuerpo1{
-        width: 100%;
-        height: 400px;
-        display: block; 
-       
+        width: 98%;
+        height: 400px;  
     }
 
     #banner{
