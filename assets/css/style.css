@@ -325,6 +325,14 @@ textarea{
         padding: 0.5em 1em;
     }
 
+/*contenedor*/
+ .contenedor {
+        display: block;     /* elimina el flex */
+        width: 95%;
+        margin: auto;
+    }
+
+
 
 
 
