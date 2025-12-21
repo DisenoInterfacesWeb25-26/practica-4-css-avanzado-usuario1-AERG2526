@@ -294,6 +294,9 @@ textarea{
     border-color: #66afe9;
 }
 /*Parametros para tablets con media queries*/
+@media (max-width: 1200px) {
+
+
 /*cabecera*/
 .cabecera {
         display: block;
@@ -410,6 +413,25 @@ td, th {
         bottom: 15px;
         right: 15px;
     }
+  }
+/*media queries para movil*/
+/*cabecera*/
+.cabecera {
+        display: block;
+        text-align: center;
+        padding: 1em 0;
+    }
+ .cabecera img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 0.5em;
+    }
+     h1 {
+        font-size: 1.8em;
+    }
+
+
+
 
 
 
