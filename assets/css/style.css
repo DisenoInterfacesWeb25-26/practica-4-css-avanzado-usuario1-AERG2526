@@ -395,6 +395,14 @@ textarea{
  textarea {
         width: 100%;
     }
+/*tabla*/
+ table {
+        font-size: 0.9em;
+    }
+
+td, th {
+        padding: 0.6em;
+    }
 
 
 
