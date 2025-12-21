@@ -429,6 +429,28 @@ td, th {
      h1 {
         font-size: 1.8em;
     }
+    /*menu*/
+ nav .menu ul {
+        position: static;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0.5em 0;
+    }
+nav .menu ul li {
+        display: block;
+        margin: 0.3em 0;
+    }
+nav .menu ul li a {
+        display: block;
+        padding: 0.6em;
+        font-size: 1em;
+        width: 80%;
+        margin: auto;
+    }
+
+
+
 
 
 
