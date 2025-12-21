@@ -341,10 +341,34 @@ textarea{
             width: 100%;
             padding: 1em;
     }
-     article {
+  article {
         width: 100%;
         padding: 40px 10px;
     }
+/*aside*/
+  .aside {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 1em 0;
+    }
+  aside ul {
+        display: inline-block;
+        text-align: center;
+    }
+  aside ul li {
+        display: inline-block;
+        margin: 0 0.5em;
+    }
+ aside ul li a {
+        font-size: 1.1em;
+    }
+
+
+
+
+
+
 
 
 
