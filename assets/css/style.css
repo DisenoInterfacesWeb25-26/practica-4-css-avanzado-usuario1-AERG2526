@@ -384,7 +384,17 @@ textarea{
         display: inline-block;
         margin-top: 1em;
     }
+/*formulario*/
 
+ form {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+ textarea {
+        width: 100%;
+    }
 
 
 
