@@ -327,7 +327,7 @@ textarea{
 
 /*contenedor*/
  .contenedor {
-        display: block;     /* elimina el flex */
+        display: block;     
         width: 95%;
         margin: auto;
     }
