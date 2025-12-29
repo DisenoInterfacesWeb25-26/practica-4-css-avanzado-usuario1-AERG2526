@@ -2,13 +2,14 @@ header,
 footer,
 nav,
 aside {
-    display: none;
+    display: none ;
 }
 
 /* Opcional: ajustar el contenido principal */
 body {
-    background: white;
+    background:white ;
     color: black ;
+	font-size: 12 pt
 }
 
 section, article {
