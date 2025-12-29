@@ -491,7 +491,18 @@ nav .menu ul li a {
         aside ul li a{ 
           font-size: 1em;
         }
-
+/*formulario*/
+form{
+  width:90%;
+  margin:10px auto;
+  padding:10px;
+}
+textarea{
+  width: 100%;
+}
+input,.basic-input,.hover-focus-input{
+  width:100%;
+}
 
 
 
