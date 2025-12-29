@@ -1,0 +1,19 @@
+header,
+footer,
+nav,
+aside {
+    display: none;
+}
+
+/* Opcional: ajustar el contenido principal */
+body {
+    background: white;
+    color: black ;
+}
+
+section, article {
+    width: 100% ;
+    margin: 0 ;
+    padding: 0 ;
+}
+
