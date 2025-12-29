@@ -448,6 +448,32 @@ nav .menu ul li a {
         width: 80%;
         margin: auto;
     }
+    /*contenedor principal*/
+
+    .contenedor{
+      display:block;
+      width: 95%;
+      margin:auto;
+    }
+    /*section*/
+    section{
+      width:100%;
+      margin:10px 0 60px 0;
+      display: block;
+    }
+   section  article{
+      width:100%;
+      padding:0.5 em;
+    }
+    article{
+      width:100%;
+      padding: 20px 5px;
+        }
+        p{
+          font-size: 0.95em;
+          text-indent:20px;
+        }
+        
 
 
 
