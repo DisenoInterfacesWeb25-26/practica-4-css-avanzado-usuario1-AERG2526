@@ -473,7 +473,24 @@ nav .menu ul li a {
           font-size: 0.95em;
           text-indent:20px;
         }
-        
+        /*Aside*/
+        .aside{
+          width:100%;
+          display:block;
+          text-align:center;
+          padding: 1em 0;
+        }
+        aside ul{ 
+          display: block;
+          text-align: center; 
+        }
+        aside ul li{ 
+          display: block;
+          margin: 0.4em 0; 
+        }
+        aside ul li a{ 
+          font-size: 1em;
+        }
 
 
 
