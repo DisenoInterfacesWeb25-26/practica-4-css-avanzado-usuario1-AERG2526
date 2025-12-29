@@ -523,6 +523,9 @@ input,.basic-input,.hover-focus-input{
   display: inline-block;
   margin-top: 1 em;
 }
+/*tabla*/
+table{font-size: 0.8em;}
+td,th{padding: 0.4em;}
 
 
 
