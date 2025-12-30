@@ -333,6 +333,18 @@ textarea{
 .hover-focus-input:focus {
     border-color: #66afe9;
 }
+.flex-contenedor img,
+.flex-contenedor2 img,
+.flex-contenedor3 img {
+    width: 250px;  
+    height: auto;
+}
+.flex-contenedor{
+  display: inline-flex;
+  flex-wrap: nowrap;
+     
+}
+
 /*Parametros para tablets con media queries*/
 @media (max-width: 1200px) {
 
