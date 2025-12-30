@@ -336,13 +336,22 @@ textarea{
 .flex-contenedor img,
 .flex-contenedor2 img,
 .flex-contenedor3 img {
-    width: 250px;  
-    height: auto;
+    width: 200px;  
+    height: 200px;
 }
 .flex-contenedor{
   display: inline-flex;
-  flex-wrap: nowrap;
-     
+  flex-wrap: no-wrap;    
+}
+.flex-contenedor2{
+  display: inline-flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;   
+}
+.flex-contenedor3{
+  display: inline-flex;
+  flex-wrap: wrap; 
+  align-items: stretch;   
 }
 
 /*Parametros para tablets con media queries*/
