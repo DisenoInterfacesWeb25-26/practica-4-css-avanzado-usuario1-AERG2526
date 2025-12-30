@@ -170,6 +170,10 @@ nav .menu ul li a{
 }
 nav .menu li a:hover{
   color: orange;
+  /*transformaciones aumentado la escala*/
+  -webkit-transform: scale(1.50);
+    -ms-transform: scale(1.50);
+    transform: scale(1.50);
 }
 nav .menu li a:active{
   background-color: yellow;
