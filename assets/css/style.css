@@ -63,8 +63,17 @@ color:black;
 }
 aside div ul li a{
 color:mediumpurple;
-  background-color: transparent;
-  font-size: 1em;   
+background-color: transparent;
+font-size: 1em; 
+display: inline-block;
+padding: 0.4em 0.8em;
+text-decoration: none;
+    /* Transiciones para clase aside*/
+    transition:
+        background-color 1s ease,
+        color 0.4s ease,
+        padding-left 0.4s ease,
+        box-shadow 0.4s ease;
 }
 header div{
   color:black;
@@ -114,10 +123,19 @@ font-size: 1.2em;
 .aside li a:hover{
 background-color:orange;
 line-height: 30px;
+/*transicion de los enlaces del Aside*/
+color: white;
+padding-left: 1.8em; 
+box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+
 }
 .aside li a:active{
 background-color: yellow;
+/*transicion de los enlaces del Aside*/
+ color: black;
+  box-shadow: none;
 }
+
 aside ul{
   vertical-align:top;
 }
