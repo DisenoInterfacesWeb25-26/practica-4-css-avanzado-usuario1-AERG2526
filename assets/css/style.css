@@ -11,6 +11,10 @@
   margin: 0;
   padding: 0;
 }
+/* Selector atributos con imagenes sin atributo "alt" */
+img:not([alt]) {
+    border: 3px solid red;
+}
 h1 {
   font-size: 3em; 
   color:#0077c2;
@@ -151,6 +155,18 @@ nav .menu li a:hover{
 }
 nav .menu li a:active{
   background-color: yellow;
+}
+/*Selector de atributos pdf*/
+a[href$=".pdf"]::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    background-image: url("https://www.shareicon.net/data/16x16/2016/08/13/808584_document_512x512.png");
+  }
+.pdf {
+    float: left;
 }
 section{
 	margin:40px 0px 300px 0px;
